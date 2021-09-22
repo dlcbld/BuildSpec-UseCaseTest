@@ -16,5 +16,5 @@ steps:
       echo "Have access"
       PATH=$PATH:/test
       echo $PATH
-      cat abc.txt
+      echo "hi" >> abc.txt
       oci os object put --bucket-name testBucket --file abc.txt
